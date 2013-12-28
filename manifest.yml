@@ -1,0 +1,9 @@
+--- 
+applications: 
+- name: vendredi13
+  path: .
+  url: vendredi13.${target-base}
+  instances: 1
+  memory: 64M
+  runtime: node08
+  framework: node
